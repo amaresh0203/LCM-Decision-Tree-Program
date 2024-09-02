@@ -27,6 +27,6 @@ Data
 The app uses a predefined set of standard sack sizes for different chemicals to calculate the necessary amounts for each treatment. These values are stored in a dictionary within the app code.
 
 Acknowledgements
-Special thanks to Halliburton for providing the Loss Circulation Decision Trees that form the basis of this app. All rights to these decision trees and chemicals are reserved by Halliburton.
-Streamlit for providing a simple and effective platform for building web apps.
-Plotly for the visualizations.
+- Special thanks to Halliburton for providing the Loss Circulation Decision Trees that form the basis of this app. All rights to these decision trees and chemicals are reserved by Halliburton.
+- Streamlit for providing a simple and effective platform for building web apps.
+- Plotly for the visualizations.
