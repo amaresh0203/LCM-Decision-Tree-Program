@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import time
 import os
 
@@ -333,9 +332,9 @@ def show_recommendation():
             st.markdown("---")
             
             # Bar chart for concentrations
-            recommendation_df['Concentration'] = recommendation_df['Concentration'].apply(lambda x: float(x.split()[0]) if x else 0)
-            fig = px.bar(recommendation_df, x='Chemical', y='Concentration', title='Treatment Concentrations', labels={'Concentration': 'Concentration (ppb)'})
-            st.px_chart(fig)
+            #recommendation_df['Concentration'] = recommendation_df['Concentration'].apply(lambda x: float(x.split()[0]) if x else 0)
+            #fig = px.bar(recommendation_df, x='Chemical', y='Concentration', title='Treatment Concentrations', labels={'Concentration': 'Concentration (ppb)'})
+            #st.px_chart(fig)
             
             # Save recommendations to CSV
             csv = recommendation_df.to_csv(index=False).encode('utf-8')
