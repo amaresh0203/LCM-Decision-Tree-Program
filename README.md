@@ -3,6 +3,7 @@
 This Streamlit app provides a decision-making tool for lost circulation treatments in drilling operations. The app uses predefined decision trees to recommend suitable chemical treatments based on the loss rate of drilling fluid. It offers treatment suggestions for both reservoir and non-reservoir zones and supports multiple scenarios.
 For the input data I have used Halliburton Loss Circu;ation Decision Trees and reserves complete rights for the same.
 
+The webapp has been deployed using streamlit cloud services that can be accessed with this link: https://lcm-decision-tree-program-2.streamlit.app/
 ## Features
 - **Decision Trees for Different Scenarios**: The app includes decision trees for different loss rate scenarios, such as `stoppit`, `barablend-657`, `non-reservoir`, and `reservoir` decision trees.
 - **Dynamic Recommendations**: Provides dynamic chemical treatment recommendations based on user input.
