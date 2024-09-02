@@ -1,4 +1,4 @@
-# Lost Circulation Treatment Decision Tree
+# Lost Circulation Treatment Program
 
 This Streamlit app provides a decision-making tool for lost circulation treatments in drilling operations. The app uses predefined decision trees to recommend suitable chemical treatments based on the loss rate of drilling fluid. It offers treatment suggestions for both reservoir and non-reservoir zones and supports multiple scenarios.
 For the input data I have used Halliburton Loss Circu;ation Decision Trees and reserves complete rights for the same.
